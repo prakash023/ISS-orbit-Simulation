@@ -1,3 +1,8 @@
+
+<img width="1021" height="718" alt="SpaceStations" src="https://github.com/user-attachments/assets/cb09d5f6-cbfa-4559-b063-77c31c34d771" />
+
+
+
 # ISS Orbit Simulation
 
 A realistic 3D visualization of the International Space Station orbiting Earth, built using react, 3.js and vite.
