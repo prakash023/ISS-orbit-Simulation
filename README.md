@@ -1,21 +1,34 @@
-<<<<<<< HEAD
-# React + Vite
+# ISS Orbit Simulation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A realistic 3D visualization of the International Space Station orbiting Earth, built using react, 3.js and vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Here the project renders a dynamic space scene in the browser featuring ISS-inspired structure and Orbiting motion around Earth
+with a Realistic solar panel arrays.
 
-## React Compiler
+### Space Station
+- Modular ISS-like structure
+- Solar panels with procedural solar cell textures
+- Rotating solar Panel
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+src/
+├ App.jsx
+├ SpaceStation.jsx
+├ Earth.jsx
+├ Constellations.jsx
+├ main.jsx
+└ styles.css
 
-## Expanding the ESLint configuration
+# Setup clone
+git clone https://github.com/prakash023/ISS-orbit-Simulation.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ISS-orbit-Simulation
-A realistic 3D visualization of the International Space Station orbiting Earth
->>>>>>> b7609065e906ead6aad2b264f8b47b0ad471ba74
+cd ISS-orbit-Simulation
+
+# Install dependencies
+- npm install
+and 
+- npm run dev
+
+open localhost: http://localhost:5173/
